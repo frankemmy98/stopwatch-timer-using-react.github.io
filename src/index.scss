@@ -1,0 +1,35 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: aqua;
+}
+
+.App {
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.timer--button {
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.timer--button:hover {
+    background-color: black;
+    color: #fff;
+}
